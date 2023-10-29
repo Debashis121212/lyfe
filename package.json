@@ -6,7 +6,7 @@
 	"scripts": {
 		"start": "pm2 start . --attach --namespace levanter --name levanter",
 		"stop": "pm2 stop levanter",
-		"heroku-postbuild": "git clone -b heroku https://github.com/lyfe00011/whatsapp-bot-md.git temp && mv temp/.git .git && rm -rf temp   "
+		"heroku-postbuild": "git clone https://github.com/lyfe00011/whatsapp-bot-md.git temp && mv temp/.git .git && rm -rf temp"
 	},
 	"author": "",
 	"license": "ISC",
